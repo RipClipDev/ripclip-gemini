@@ -1,0 +1,6 @@
+description = "Summarises last week's posts: views by platform, the top posts, the change from the week before and when to post."
+prompt = """
+Use RipClip to report on last week. Time zone: {{args}} (ask if none is given)
+
+`weekly_report` with that IANA time zone, drawn with `show_report`: views by platform, the top posts, the change from the week before and the strongest time to post. Say which counts a platform does not send.
+"""

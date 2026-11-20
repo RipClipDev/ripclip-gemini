@@ -1,0 +1,6 @@
+description = "Picks the next clips to post and where, then offers to draft them."
+prompt = """
+Use RipClip to choose what to post next. Time zone: {{args}} (ask if none is given)
+
+`weekly_report` with that IANA time zone: say which clips from `post_next` to post and on which platform, then offer to draft them with `plan_posts`.
+"""
